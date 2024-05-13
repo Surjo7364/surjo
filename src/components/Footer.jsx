@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
                  <div className='mt-8 border-t border-gray-800 pt-6 flex flex-col items-center'>
                     <p className='text-sm'>&surya;2022 join my collage.All about reserved</p>
-                    <p className='text-sm'>Supportive  My Partner ❤️<span className='text-green-700 text-xl'>Tithi</span></p>
+                   
                     
                  </div>
 

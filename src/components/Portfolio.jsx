@@ -6,6 +6,7 @@ import java from "../../public/img6.png";
 import reactjs from "../../public/img7.png";
 import express from "../../public/img8.png";
 import c from "../../public/img9.png";
+import { FaPlayCircle } from 'react-icons/fa';
 
 const Portfolio = () => {
     const cardItem=[
@@ -61,8 +62,8 @@ const Portfolio = () => {
                                 <img src={logo} className='w-[120px] h-[120px] rounded-full 
                                 p-1 border-[2px]' alt="" />
                                 <div>
-                                    <div className='font-bold text-xl mb-2 px-3'>{name}</div>
-                                    <p className='px-2 text-gray-800'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <div className='font-bold text-xl mb-2 px-3'>{name}</div>
+                                   <p className='px-2 text-gray-800 text-sm md:text-sm text-justify'>Building digital experiences that drive business outcomes, using the latest technologies and trends</p>
                                 </div>
                                 <div className='justify-around space-x-3'>
                                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'>Video</button>
